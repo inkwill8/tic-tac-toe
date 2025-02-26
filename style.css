@@ -33,6 +33,10 @@ body {
     border: 1px solid #f7f7f7;
 }
 
+.box:hover {
+    background-color: lightgrey;
+}
+
 #one {
     border-top-left-radius: 10px;
 }
@@ -48,3 +52,4 @@ body {
 #nine {
     border-bottom-right-radius: 10px;
 }
+
