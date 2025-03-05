@@ -11,10 +11,13 @@ for (let box of boxes) {
 
 // COMP CHOICE
 
-let computerChoice = Math.floor(Math.random() * 10);
+
 
 function addComputerChoice() {
+    let computerChoice = Math.floor(Math.random() * 10);
+
+    // need to take computerChoice value (1-9) and correspond it to a node
+    console.log(computerChoice);
     
 }
 
-console.log(computerChoice);
